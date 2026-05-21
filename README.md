@@ -14,7 +14,7 @@ Built for researchers (especially newcomers) who want to stay on top of the supe
 - **Explains** each paper in plain English using Claude (Anthropic) or Gemini Flash (Google)
 - **Exports** any paper + its AI analysis as a Markdown file, ready to paste into Obsidian, Notion, or any notes app
 
-No installation. No backend. Just open the link.
+No installation or backend needed.
 
 ---
 
@@ -32,7 +32,7 @@ No installation. No backend. Just open the link.
 git clone https://github.com/yourusername/sn-digest.git
 ```
 
-Or just download `index.html` — that's the entire app.
+Or just download `index.html` 
 
 ### 2. Get a free AI key 
 
@@ -46,13 +46,13 @@ The app works without any key — you can browse abstracts and arXiv links for f
 **Option B — Claude (Anthropic, paid)**
 - Go to [console.anthropic.com](https://console.anthropic.com)
 - Create an account and add billing
-- ~$0.003 per paper analysis (very cheap)
+- ~$0.003 per paper analysis 
 
 ### 3. Enter your key in the app
 
 Open the app → click **Settings** → choose your backend → paste your key → it saves automatically in your browser. 
 
-**Your key is stored only in your browser's local storage. It is never sent to GitHub or any server — only directly to the API you chose.**
+**Your key is stored only in your browser's local storage. It is never sent to GitHub or any server, only directly to the API you chose.**
 
 ---
 
@@ -63,4 +63,4 @@ If you have a Claude.ai subscription:
 1. Download `index.html` from this repo
 2. Open Claude.ai → start a new chat
 3. Attach the file and say: *"Run this as an artifact"*
-4. In Settings inside the app, select **Claude** — no key needed
+4. In Settings inside the app, select **Claude** 
