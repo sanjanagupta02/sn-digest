@@ -453,8 +453,8 @@ async function fetchPapers() {
     // with no error shown to the user.
     const proxies = [
       u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+      u => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,  // moved up
       u => `https://corsproxy.io/?url=${encodeURIComponent(u)}`,
-      u => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
       u => `https://thingproxy.freeboard.io/fetch/${u}`,
       u => `https://proxy.cors.sh/${u}`,
     ];
