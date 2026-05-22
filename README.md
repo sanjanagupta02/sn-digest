@@ -20,7 +20,7 @@ No installation or backend needed.
 
 ## Live app
 
-**[sanjana207298.github.io/sn-digest](https://sanjana207298.github.io/sn-digest)**
+**[sanjanagupta02.github.io/sn-digest](https://sanjanagupta02.github.io/sn-digest)**
 
 ---
 
@@ -29,7 +29,7 @@ No installation or backend needed.
 ### 1. Fork or clone this repo
 
 ```bash
-git clone https://github.com/yourusername/sn-digest.git
+git clone https://github.com/sanjanagupta02/sn-digest.git
 ```
 
 Or just download `index.html` 
